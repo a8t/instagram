@@ -8,3 +8,82 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+.content {
+	display: flex;
+	justify-content: center;
+
+}
+
+main {
+	background-image: url(../images/bgtile.png);
+	background-repeat: repeat-x;
+
+}
+
+#phones {
+	margin: 40px;
+	height: 100%;
+}
+
+.right-side {
+	width:500px;
+	position: relative;
+	top:100px;
+}
+
+#login {
+	float: right;
+	background-color: #1c5999;
+	color: white;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+#login * {
+	display: inline;
+}
+
+#login img {
+	position: relative;
+	top:4px;
+}
+
+#frame {
+	position: absolute;
+	z-index: 1;
+	top: 200px;
+	left:0px;
+
+}
+
+.main-text {
+	padding: 20px;
+	z-index: 2;
+	background-image: url(../images/frame.png);
+	background-repeat: no-repeat;
+}
+
+.links {
+	text-align: center;
+}
+
+.links>li{
+	display: inline;
+	margin: 0 10px;
+	color: #06365f;
+	text-align: center;
+}
+
+.app-buttons {
+	margin-left: 10px;
+}
+
+.app-buttons > img {
+	margin: 0 10px;
+}
+
+#cp {
+	color: #222
+}
